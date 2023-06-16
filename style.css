@@ -33,12 +33,12 @@ body {
     margin: 0 auto;
   }  
   
-  .line {
+  /* .line {
     height: 2px;
     width: 100%;
     background-color: #fff;
     margin-bottom: 10px;
-  }
+  } */
 
   .navbar {
     display: flex;
