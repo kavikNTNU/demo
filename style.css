@@ -20,28 +20,35 @@ body {
     padding: 10px 0;
   }
   
-  .nav-wrapper {
+  .nav-container {
     display: flex;
     align-items: center;
     justify-content: center;
   }
   
-  .nav-wrapper ul {
+  .line {
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 10px;
+  }
+  
+  ul {
     list-style-type: none;
     display: flex;
   }
   
-  .nav-wrapper li {
+  li {
     margin: 0 10px;
   }
   
-  .nav-wrapper a {
+  a {
     text-decoration: none;
     color: #fff;
     position: relative;
   }
   
-  .nav-wrapper a::after {
+  a::after {
     content: '';
     position: absolute;
     width: 100%;
@@ -53,6 +60,6 @@ body {
     transition: transform 0.3s ease-in-out;
   }
   
-  .nav-wrapper a:hover::after {
+  a:hover::after {
     transform: scaleX(1);
   }
