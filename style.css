@@ -94,24 +94,23 @@ body {
     transform: scaleX(1);
   } */
 
-  #home {
+  #about {
     position: relative; /* Ensure the section is a positioned element */
   }
   
-  #home img {
+  #about img {
     width: 100px;
     height: 100px;
     border-radius: 50%;
     float: left;
     object-fit: cover;
     position: absolute;
-    /* top: 0; Adjust the top position as desired */
-    /* left: 0; Adjust the left position as desired */
+    top: 0; /.nav-containerAdjust the top position as desired */
+    left: 0; /*Adjust the left position as desired*/
     margin-right: 10px; /* Add some margin to the right for spacing */
   }
 
-  #home h1,
-  #home h2,
-  #home p {
+  #about h2,
+  #about p {
     margin-left: 60px; /* Adjust the margin as desired */
   }
