@@ -21,7 +21,7 @@ body {
     left: 0;
     width: 100%;
     background-color: #333;
-    padding: 10px 0;
+    /* padding: 10px 0; */
     z-index: 999;
   }
   
@@ -39,8 +39,31 @@ body {
     background-color: #fff;
     margin-bottom: 10px;
   }
+
+  .navbar {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
   
-  ul {
+  .navbar li {
+    margin: 0 10px;
+  }
+  
+  .navbar li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .navbar li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+  }
+  
+  /* ul {
     list-style-type: none;
     display: flex;
   }
@@ -69,4 +92,4 @@ body {
   
   a:hover::after {
     transform: scaleX(1);
-  }
+  } */
