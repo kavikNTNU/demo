@@ -126,3 +126,17 @@ body {
     float: left;
     margin-right: 10px; /* Add some margin to the right for spacing */
   }
+
+  #slideshow {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .slide {
+    display: none;
+  }
+  
+  .slide img {
+    max-width: 100%;
+  }
