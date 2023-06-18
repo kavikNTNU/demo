@@ -124,7 +124,5 @@ body {
     width: 25px;
     height: 25px;
     float: left;
-    object-fit: cover;
-    position: absolute;
     margin-right: 10px; /* Add some margin to the right for spacing */
   }
