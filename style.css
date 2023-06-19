@@ -1,10 +1,23 @@
 body {
     /*evt bakgrunn av noe relatert til meg, feks bilde jeg har tatt (naturbilde, feks vinter)*/
-    background: linear-gradient(to bottom, #667db6, #0082c8, #0082c8, #667db6);
+    /* background: linear-gradient(to bottom, #667db6, #0082c8, #0082c8, #667db6); */
+    background: linear-gradient(45deg, #00f, #ff0);
+    animation: gradientTransition 10s infinite alternate;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+  }
+
+  /* body {
+    background: linear-gradient(45deg, #00f, #ff0);
+    animation: gradientTransition 10s infinite alternate;
+  } */
+  
+  @keyframes gradientTransition {
+    0% { background: linear-gradient(45deg, #00f, #ff0); }
+    50% { background: linear-gradient(45deg, #ff0, #f00); }
+    100% { background: linear-gradient(45deg, #f00, #00f); }
   }
 
   /* legge til endring ved skalering */
